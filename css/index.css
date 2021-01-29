@@ -15,11 +15,11 @@ body{
     min-width: 200vh;
 }
 
-div.cabecera{
+.cabecera{
     width: 100%;
     padding: 2em 0;
 }
-div.cabecera div.centrado{
+.cabecera .centrado{
     width: 80%;
     margin: auto;
 
@@ -30,11 +30,11 @@ div.cabecera div.centrado{
     align-content: initial;
     
 }
-div.cabecera div.centrado div.logo{
+.cabecera .centrado .logo{
     width: 100%;
     max-width: 150px;
 }
-div.cabecera div.centrado div.menu{
+.cabecera .centrado .menu{
     width: calc(80% - 150px);
 
     display: flex;
@@ -44,10 +44,10 @@ div.cabecera div.centrado div.menu{
     align-content: initial;
 
 }
-div.cabecera div.centrado div.menu div.item{
+.cabecera .centrado .menu .item{
     margin: 0 0 0 1em;
 }
-div.soul{
+.soul{
     width: 100%;
     min-height: 100vh;
 
@@ -57,16 +57,16 @@ div.soul{
     align-items: center;
     align-content: initial;
 }
-div.soul div.logo{
+.soul .logo{
     width: 90%;
     max-width: 760px;
 }
-div.columnas{
+.columnas{
     width: 100%;
 
     padding: 10vh 0;
 }
-div.columnas div.centrado{
+.columnas .centrado{
     width: 80%;
     margin: auto;
 
@@ -77,23 +77,23 @@ div.columnas div.centrado{
     align-content: initial;
 
 }
-div.columnas div.centrado div.columna{
+.columnas .centrado .columna{
     width: calc(90% / 3);
 }
-div.columnas div.centrado div.columna div.imagen{
+.columnas .centrado .columna .imagen{
     width: 100%;
     min-height: 200px;
 
     margin-bottom: 0 0 40px 0;
 }
-div.columnas div.centrado div.columna div.titular{
+.columnas .centrado .columna .titular{
     width: 100%;
 }
-div.footer{
+.footer{
     width: 100%;
 
 }
-div.footer div.rrss{
+.footer .rrss{
     width: 100%;
     display: flex;
     
@@ -102,10 +102,10 @@ div.footer div.rrss{
     align-items: center;
     align-content: initial;
 }
-div.footer div.rrss div.red-social{
+.footer .rrss .red-social{
     margin: 0 10px;
 }
-div.footer p.links{
+.footer p.links{
     width: 65%;
     margin: 20px auto;
 
@@ -115,10 +115,10 @@ div.footer p.links{
     align-items: initial;
     align-content: center;
 }
-div.footer p.links a.enlaces{
+.footer p.links a.enlaces{
     margin: 0 10px;
 }
-div.footer div.copy{
+.footer .copy{
     width: 100%;
     
     text-align: center;
