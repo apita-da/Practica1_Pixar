@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link href="src/img/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="css/index.css" />
+    <script src="js/app.js" defer></script>
+
 </head>
 <body>
-    <div class="cabecera">
+    <header class="cabecera">
         <div class="centrado clear">
             <h1 class="logo">
                 <picture>
@@ -21,16 +23,18 @@
                 </picture>
             </h1>
             <i class="fas fa-bars"></i>
-            <div class="menu clear">
-                <div class="item">Feature films</div>
-                <div class="item">Short Films</div>
-                <div class="item">Technology</div>
-                <div class="item">Carrers</div>
-                <div class="item">Extra</div>
-                <div class="item">About</div>
-            </div>
+            <nav class="menu clear">
+                <ul class="ul">
+                    <li class="item"><a class="a" href="#" title="About">About</a></li>
+                    <li class="item"><a class="a" href="#" title="Extra">Extra</a></li>
+                    <li class="item"><a class="a" href="#" title="Carrers">Carrers</a></li>
+                    <li class="item"><a class="a" href="#" title="Technology">Technology</a></li>
+                    <li class="item"><a class="a" href="#" title="Short Films">Short Films</a></li>
+                    <li class="item"><a class="a" href="#" title="Feature films">Feature films</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
     <div class="soul">
         <h2 class="logo">
             <img src="src/img/logo-soul.png" alt="Soul">
@@ -40,15 +44,16 @@
         <div class="centrado clear">
             <div class="columna">
                 <img src="src/img/col1.jpg" alt="Careers at Pixar" class="imagen">
-                <div class="titular">Careers at Pixar</div>
+                <li class="titular"><a class="a" href="#" title="Carrers at Pixar">Carrers at Pixar</a></li>
+
             </div>
             <div class="columna">
                 <img src="src/img/popcorn.jpg" alt="Pixar Popcorn" class="imagen">
-                <div class="titular">Pixar Popcorn</div>
+                <li class="titular"><a class="a" href="#" title="Pixar Popcorn">Pixar Popcorn</a></li>
             </div>
             <div class="columna">
                 <img src="src/img/col3.jpg" alt="Inclusion and Outreach" class="imagen">
-                <div class="titular">Inclusion and Outreach</div>
+                <li class="titular"><a class="a" href="#" title="Inclusion and Outreach">Inclusion and Outreach</a></li>           
             </div>
         </div>
     </div>
