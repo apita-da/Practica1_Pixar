@@ -49,6 +49,10 @@ body{
     letter-spacing: 4px;
 }
 
+/* simplificar etiquetas
+quitar float
+cambiar tamaño responsive
+loading lazy img */
 .cabecera{
     width: 100%;
     background-color: var(--blanco);
