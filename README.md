@@ -1,9 +1,9 @@
 # Practica1_Pixar
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Herramientas usadas](#herramientas_usadas)
-3. [Instalacion](#instalacion)
-4. [Colaboracion](#colaboracion)
+1. [General Info](#General-info)
+2. [Herramientas usadas](#Herramientas_usadas)
+3. [Instalacion](#Instalacion)
+4. [Colaboracion](#Colaboracion)
 5. [Tecnologia](#Tecnologia)
 6. [Autora](#Autora)
 7. [Linencia](#Licencia)
