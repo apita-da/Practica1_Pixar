@@ -15,7 +15,7 @@
 * En esta ejercicio lo que teniamos que hacer es una copia de la páginad de inicio de Pixar[https://www.pixar.com/]
 ### Screenshot 📷
 ***
-![Image text](link del archivo en git)
+![Image text](https://github.com/apita-da/Practica1_Pixar/blob/master/screenshotpixar.PNG)
 
 ### Herramientas usadas 🛠️
 ***
